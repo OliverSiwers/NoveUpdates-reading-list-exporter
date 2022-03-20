@@ -1,0 +1,17 @@
+{
+	"name": "NoveUpdates reading list exporter",
+	"version": "1.0",
+	"manifest_version": 3,
+	"description": "Exports all reading lists from novelupdates.com (along with any notes and/or custom tags)",
+	"permissions": [
+		"scripting",
+		"tabs"
+	],
+	"host_permissions": [
+		"*://*/"
+	],
+	"action": {},
+	"background": {
+		"service_worker": "background.js"
+	}
+}
